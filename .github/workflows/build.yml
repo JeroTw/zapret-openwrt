@@ -112,6 +112,7 @@ jobs:
       matrix:
         branch: [ openwrt-23.05, SNAPSHOT ]
         arch:
+          - ramips_mt76x8
           - aarch64_cortex-a53
           - aarch64_cortex-a72
           - aarch64_generic
